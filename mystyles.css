@@ -73,14 +73,11 @@ ul.menu li  a.selected {
 	border-bottom: solid 5px #FF005B;
 }
 
-
-
 .content{
 	overflow: auto;
 	display: block;
 	margin: 0px auto;
 	clear:both;
-	
 }
 
 .content .inner {
