@@ -1,7 +1,7 @@
 (function() {
   var headerHeight = document.getElementsByClassName('header')[0].clientHeight;
-	var instructions = document.getElementById('instructions');
-	var navItem = document.getElementById('show-instructions');
+	// var instructions = document.getElementById('instructions');
+	// var navItem = document.getElementById('show-instructions');
 	// instructions.style.top = headerHeight + 'px';
 
 	navItem.addEventListener("click", function() {
