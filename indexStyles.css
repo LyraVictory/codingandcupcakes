@@ -1,16 +1,16 @@
--html, body {
-	background: #fcf49c;
-	font-family: 'Lato', sans-serif;
-	color: #6C6B6B;
-	margin: 0px;
-	padding: 0px;
+html, body {
+	background: #C6AA68;
+	font-family: "Berkshire Swash", sans-serif;
+	color: #000;
+	margin: 10px;
+	padding: 5px;
 	overflow-x: hidden;
 }
 
 h1 {
 	font-weight: 900;
 	text-align: center;
-	font-family: 'Itim','Lato',sans-serif;
+	font-family: '','',sans-serif;
 }
 
 h2, h3	{
@@ -18,7 +18,7 @@ h2, h3	{
 }
 
 p {
-	font-weight: 300;
+	font-weight: 600;
 }
 
 .header{
@@ -36,22 +36,14 @@ p {
 	display: block;
 }
 
-.homeIcon img {
-	position: absolute;
-	top: 0px;
-	left: 10px;
-}
-
 .logo {
 	float: left;
-	width: 120px;
+	width: 150px;
 	position: absolute;
 	top: 0px;
-	left: 110px;
 }
 .logo img{
-	width: ;
-	float: right;
+	width: 100%;
 }
 
 ul.menu {
@@ -89,7 +81,7 @@ ul.menu li  a.selected {
 }
 
 .content .inner {
-	background: #fff;
+	background:  #98ADAD;
 }
 
 .video {
