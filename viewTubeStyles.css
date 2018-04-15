@@ -1,71 +1,62 @@
-html, body {
+-html, body {
 	background: white;
-	font-family: 'Cagliostro', sans-serif;
-	color: #000;
+	font-family: 'Lato', sans-serif;
+	color: #6C6B6B;
 	margin: 0px;
-	padding: 7px;
+	padding: 0px;
 	overflow-x: hidden;
-}
-
-textarea {
-	font-size: 16px;
-}
-
-label {
-	font-size: 16px;
-}
-
-.fanficInner {
-	background: white;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 h1 {
 	font-weight: 900;
 	text-align: center;
-	font-family: 'Berkshire Swash', sans-serif;
+	font-family: 'Itim','Lato',sans-serif;
 }
 
-h2 {
+h2, h3	{
 	font-weight: 700;
 	text-align: center;
+	font-size: 23px;
 }
-
-h3 {
-	text-align: left;
-	font-size: 20;
+h4 {
+	text-align: center;
 }
-
 p {
-	font-weight: 600;
-	font-size: 18px;
+	font-weight: 300;
 }
 
 .header{
 	overflow: auto;
 	display: block;
 	clear:both;
-	background: #c69a71;
+	background: #640870;
+
 }
 
 .inner{
 	width: 980px;
-	padding: 0px;
+	padding: 0px 20px;
 	margin: 0px auto;
 	overflow: auto;
 	display: block;
-	background-color: #c69a71;
+}
+
+.homeIcon img {
+	position: absolute;
+	top: 0px;
+	left: 10px;
 }
 
 .logo {
 	float: left;
-	width: 150px;
+	width: 120px;
 	position: absolute;
 	top: 0px;
+	left: 110px;
 }
 .logo img{
-	width: 100%;
+	width: ;
+	float: right;
 }
 
 ul.menu {
@@ -77,30 +68,22 @@ ul.menu {
 
 ul.menu li {
 	float: left;
-	border-right: solid 1px #000;
+	border-right: solid 1px #400a47;
 }
 
 ul.menu li  a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: black;
+	color: #fff;
 	padding: 20px;
 	display: block;
-	border-bottom: solid 5px #000;
+	border-bottom: solid 5px #400a47;
 }
 
 ul.menu li  a.selected {
-	background: #ef2828;
-	border-bottom: solid 5px #ef2828;
-}
-
-#gryffindor{
-	background: #933729;
-}
-
-#ravenclaw{
-	background: yellow;
+	background: #b215c6;
+	border-bottom: solid 5px #400a47;
 }
 
 .content{
@@ -108,13 +91,10 @@ ul.menu li  a.selected {
 	display: block;
 	margin: 0px auto;
 	clear:both;
-	background-color:#c69a71;
 }
 
 .content .inner {
-	background: #c69a71;
-	margin: 0px;
-	padding: 0px;
+	background: #fff;
 }
 
 .video {
@@ -159,16 +139,16 @@ ul.inline li.cupcake h4.tiny {
 }
 
 .footer .inner{
-	background: #cb87d1;
+	background: white;
 }
 
 .footer ul {
 	list-style-type: disc;
 	float: right;
-	color: #fff;
+	color: black;
 }
 
 .footer ul li a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
